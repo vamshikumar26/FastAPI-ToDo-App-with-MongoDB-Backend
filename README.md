@@ -31,15 +31,25 @@ This project is a **production-ready FastAPI backend** with user authentication 
 
 ## 🗂 Project Structure
 ├── main.py # Entry point for the FastAPI app
+
 ├── config.py # Environment/config settings
+
 ├── requirements.txt # Project dependencies
+
 ├── docker-compose.yml # Docker Compose setup
+
 ├── Dockerfile # Docker build file
+
 ├── Oauth2.py # OAuth2 password flow & token handling
+
 ├── jwt_token_module.py # JWT encoding/decoding utilities
+
 ├── hasing.py # Password hashing logic
+
 ├── models/ # SQLAlchemy models
+
 ├── routes/ # API route definitions
+
 ├── schema/ # Pydantic schemas for validation
 
 
@@ -57,6 +67,7 @@ docker-compose up --build(Your app will be accessible at: http://localhost:8000)
 
 ########
 Security Notes
+
 1> JWT tokens should be stored securely (HTTP-only cookies or secure storage)
 
 2> Use HTTPS in production
