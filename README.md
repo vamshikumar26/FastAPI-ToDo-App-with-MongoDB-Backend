@@ -1,4 +1,4 @@
-# todo-fastapi-with-mongodb
+
 # FastAPI Auth API with JWT, OAuth2 & Docker
 
 This project is a **production-ready FastAPI backend** with user authentication (OAuth2 + JWT), password hashing, and containerization using Docker. It follows a modular structure for scalability and easy maintenance.
