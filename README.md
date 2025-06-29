@@ -55,7 +55,8 @@ Open your browser and go to:
 
 docker-compose up --build(Your app will be accessible at: http://localhost:8000)
 
-########Security Notes
+########
+Security Notes
 1> JWT tokens should be stored securely (HTTP-only cookies or secure storage)
 
 2> Use HTTPS in production
